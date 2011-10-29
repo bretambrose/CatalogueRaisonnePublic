@@ -1,0 +1,16 @@
+*.user
+*.suo
+CatalogueRaisonne/Run/*.exe
+CatalogueRaisonne/Run/*.dll
+CatalogueRaisonne/Run/*.pdb
+CatalogueRaisonne/Run/Logs/
+CatalogueRaisonne/Run/Crashes/
+CatalogueRaisonne/CRServer/bin/
+CatalogueRaisonne/CRServer/obj/
+CatalogueRaisonne/CRShared/bin/
+CatalogueRaisonne/CRShared/obj/
+CatalogueRaisonne/CRClientConsole/bin/
+CatalogueRaisonne/CRClientConsole/obj/
+CatalogueRaisonne/CRClientShared/bin/
+CatalogueRaisonne/CRClientShared/obj/
+

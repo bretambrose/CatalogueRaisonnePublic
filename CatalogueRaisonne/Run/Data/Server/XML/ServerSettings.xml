@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ServerSettings xmlns="http://www.bambrose.com">
+  <DisconnectTimeout>20</DisconnectTimeout>
+</ServerSettings>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19E71D93-C8F9-4208-A768-EBCE2CA1C5DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRShared</RootNamespace>
+    <AssemblyName>CRShared</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ENABLE_LOGGING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;ENABLE_LOGGING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\ApplicationException.cs" />
+    <Compile Include="Source\Game\Card.cs" />
+    <Compile Include="Source\Game\CardCollection.cs" />
+    <Compile Include="Source\Game\Deck.cs" />
+    <Compile Include="Source\Game\DiscardPile.cs" />
+    <Compile Include="Source\Game\GameAction.cs" />
+    <Compile Include="Source\Game\MatchInstance.cs" />
+    <Compile Include="Source\Game\GameProperties.cs" />
+    <Compile Include="Source\Game\GameState.cs" />
+    <Compile Include="Source\Game\MatchState.cs" />
+    <Compile Include="Source\Game\ObservedClonable.cs" />
+    <Compile Include="Source\Game\PlayerHand.cs" />
+    <Compile Include="Source\Game\Random.cs" />
+    <Compile Include="Source\Game\SideMatchStats.cs" />
+    <Compile Include="Source\GenericHandler.cs" />
+    <Compile Include="Source\Lobby\LobbyBrowsing.cs" />
+    <Compile Include="Source\Logging\LogFrame.cs" />
+    <Compile Include="Source\Logging\LogFrameManager.cs" />
+    <Compile Include="Source\Logging\LoggingInterface.cs" />
+    <Compile Include="Source\Logging\LoggingThread.cs" />
+    <Compile Include="Source\Logging\LogRequests.cs" />
+    <Compile Include="Source\Network\Messages\MatchMessages.cs" />
+    <Compile Include="Source\Network\Messages\QuickmatchMessages.cs" />
+    <Compile Include="Source\Network\NetworkMessageSerialization.cs" />
+    <Compile Include="Source\Network\SerializationTest.cs" />
+    <Compile Include="Source\SlashCommand\SharedSlashCommands.cs" />
+    <Compile Include="Source\TestShared.cs" />
+    <Compile Include="Source\Threads\LogicalThreadBase.cs" />
+    <Compile Include="Source\Network\Messages\BrowseLobbyMessages.cs" />
+    <Compile Include="Source\Network\Messages\ChatMessages.cs" />
+    <Compile Include="Source\Chat\ChatShared.cs" />
+    <Compile Include="Source\ConcurrentQueues.cs" />
+    <Compile Include="Source\Connection.cs" />
+    <Compile Include="Source\CrossThreadManager.cs" />
+    <Compile Include="Source\Game\GameSettings.cs" />
+    <Compile Include="Source\Heap.cs" />
+    <Compile Include="Source\Lobby\Lobby.cs" />
+    <Compile Include="Source\Network\Messages\ConnectionMessages.cs" />
+    <Compile Include="Source\Network\Messages\LobbyMessages.cs" />
+    <Compile Include="Source\Lobby\LobbyOperations.cs" />
+    <Compile Include="Source\Network\Messages\SocialMessages.cs" />
+    <Compile Include="Source\Network\NetworkFrame.cs" />
+    <Compile Include="Source\Network\NetworkFrameManager.cs" />
+    <Compile Include="Source\Network\NetworkMessage.cs" />
+    <Compile Include="Source\Network\NetworkMessageHandler.cs" />
+    <Compile Include="Source\Network\NetworkOperation.cs" />
+    <Compile Include="Source\Persistence\PersistenceID.cs" />
+    <Compile Include="Source\Persistence\PersistentData.cs" />
+    <Compile Include="Source\PlayerInfo.cs" />
+    <Compile Include="Source\RequestResponseManager.cs" />
+    <Compile Include="Source\Resources\Resource.cs" />
+    <Compile Include="Source\Resources\ResourceManager.cs" />
+    <Compile Include="Source\Resources\SharedResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SharedResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Source\SharedSettings.cs" />
+    <Compile Include="Source\SlashCommand\SlashCommand.cs" />
+    <Compile Include="Source\SlashCommand\SlashCommandManager.cs" />
+    <Compile Include="Source\TaskScheduler.cs" />
+    <Compile Include="Source\Threads\NetworkThreadBase.cs" />
+    <Compile Include="Source\Threads\TimeKeeper.cs" />
+    <Compile Include="Source\Threads\ConsoleUIThread.cs" />
+    <Compile Include="Source\UI\TextOutput.cs" />
+    <Compile Include="Source\UI\UIFrame.cs" />
+    <Compile Include="Source\UI\UIFrameManager.cs" />
+    <Compile Include="Source\UI\UIInputRequest.cs" />
+    <Compile Include="Source\UI\UILogicNotification.cs" />
+    <Compile Include="Source\Threads\UIThreadBase.cs" />
+    <Compile Include="Source\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Source\Resources\SharedResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SharedResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)Run\$(ProjectName).dll
+copy $(TargetDir)$(ProjectName).pdb $(SolutionDir)Run\$(ProjectName).pdb
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

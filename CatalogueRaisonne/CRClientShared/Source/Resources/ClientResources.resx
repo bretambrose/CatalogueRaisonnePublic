@@ -1,0 +1,1526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Text_Client_Chat_Broadcast_Gagged" xml:space="preserve">
+    <value>You are not allowed to talk in this channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Broadcast_Not_In_Channel" xml:space="preserve">
+    <value>CHAT ERROR: You are not in that channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Creation_Error_Autojoin_Failure" xml:space="preserve">
+    <value>CHAT ERROR: Join failure.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Creation_Error_Channel_Already_Exists" xml:space="preserve">
+    <value>CHAT ERROR: Channel name already exists.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Creation_Error_Invalid_Channel_Name" xml:space="preserve">
+    <value>CHAT ERROR: Invalid channel name.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Creation_Error_Unknown_Creator" xml:space="preserve">
+    <value>CHAT ERROR: Chat server does not know who you are.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Destroyed" xml:space="preserve">
+    <value>Channel {0} was shut down by the server.</value>
+    <comment>0 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Channel_Joined" xml:space="preserve">
+    <value>Chat channel joined: {0}</value>
+    <comment>0 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Channel_Join_Error_Already_In_Channel" xml:space="preserve">
+    <value>CHAT ERROR: You are already in that channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Join_Error_Banned" xml:space="preserve">
+    <value>CHAT ERROR: You have been banned from that channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Join_Error_Channel_Does_Not_Exist" xml:space="preserve">
+    <value>CHAT ERROR: That channel does not exist.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Join_Error_Channel_Full" xml:space="preserve">
+    <value>CHAT ERROR: The channel is full.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Join_Error_No_Permission" xml:space="preserve">
+    <value>CHAT ERROR: You do not have permission to do that.</value>
+  </data>
+  <data name="Text_Client_Chat_Channel_Listing_Gagged_Status" xml:space="preserve">
+    <value>[G]</value>
+    <comment>Printed next to a gagged player's name when listing channel members</comment>
+  </data>
+  <data name="Text_Client_Chat_Channel_Listing" xml:space="preserve">
+    <value>Member listing for channel {0}\n\t{1}</value>
+    <comment>0 = channel name and number, 1 = member listing</comment>
+  </data>
+  <data name="Text_Client_Chat_Channel_New_Moderator" xml:space="preserve">
+    <value>{0} is now the moderator of channel {1}.</value>
+    <comment>0 = Player Name, 1 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Channel_Unmoderated" xml:space="preserve">
+    <value>Channel {0} is temporarily unmoderated.</value>
+    <comment>0 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Invalid_Self_Op" xml:space="preserve">
+    <value>CHAT ERROR: You can't do that to yourself.</value>
+  </data>
+  <data name="Text_Client_Chat_No_Channels" xml:space="preserve">
+    <value>CHAT ERROR: No channels subscribed to.</value>
+  </data>
+  <data name="Text_Client_Chat_No_Tells_Received" xml:space="preserve">
+    <value>CHAT ERROR: You have not received any tells to reply to yet.</value>
+  </data>
+  <data name="Text_Client_Chat_Player_Already_Gagged" xml:space="preserve">
+    <value>CHAT ERROR: That player is already gagged.</value>
+  </data>
+  <data name="Text_Client_Chat_Player_Cannot_Become_Moderator" xml:space="preserve">
+    <value>CHAT ERROR: You cannot transfer moderator to that player.</value>
+  </data>
+  <data name="Text_Client_Chat_Player_Gagged_In_Channel" xml:space="preserve">
+    <value>{0} was gagged in channel {1} by {2}.</value>
+    <comment>0 = Player Name, 1 = Channel Name, 2 = Source of Gag</comment>
+  </data>
+  <data name="Text_Client_Chat_Player_Joined_Channel" xml:space="preserve">
+    <value>{0} joined channel {1}.</value>
+    <comment>0 = Player Name, 1 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Player_Kicked_From_Channel" xml:space="preserve">
+    <value>{0} was kicked from channel {1} by {2}.</value>
+    <comment>0 = Player Name, 1 = Channel Name, 2 = Source of Kick</comment>
+  </data>
+  <data name="Text_Client_Chat_Player_Left_Channel" xml:space="preserve">
+    <value>{0} left channel {1}.</value>
+    <comment>0 = Player Name, 1 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Player_Not_Gagged" xml:space="preserve">
+    <value>CHAT ERROR: That player is not gagged.</value>
+  </data>
+  <data name="Text_Client_Chat_Player_Not_In_Channel" xml:space="preserve">
+    <value>CHAT ERROR: player not in channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Player_Ungagged_In_Channel" xml:space="preserve">
+    <value>{0} was ungagged in channel {1} by {2}.</value>
+    <comment>0 = Player Name, 1 = Channel Name, 2 = Source of Ungag</comment>
+  </data>
+  <data name="Text_Client_Chat_Received_Tell" xml:space="preserve">
+    <value>[From {0}]: {1}</value>
+    <comment>0 = Player Name, 1 = Chat Message</comment>
+  </data>
+  <data name="Text_Client_Chat_Self_Kicked_From_Channel_By_Moderator" xml:space="preserve">
+    <value>{0} kicked you from channel {1}.</value>
+    <comment>0 = Moderator, 1 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Self_Kicked_From_Channel_By_Server" xml:space="preserve">
+    <value>You were kicked from channel {0} by the server.</value>
+    <comment>0 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Self_Left_Channel" xml:space="preserve">
+    <value>You left channel {0}.</value>
+    <comment>0 = Channel Name</comment>
+  </data>
+  <data name="Text_Client_Chat_Self_Not_Moderator_Of_Channel" xml:space="preserve">
+    <value>CHAT ERROR: you are not the moderator of that channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Sent_Tell" xml:space="preserve">
+    <value>[To {0}]: {1}</value>
+    <comment>0 = Player Name, 1 = Chat Message</comment>
+  </data>
+  <data name="Text_Client_Chat_Unknown_Channel" xml:space="preserve">
+    <value>CHAT ERROR: Unknown channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Unknown_Tell_Target" xml:space="preserve">
+    <value>CHAT ERROR: Unable to send tell to unknown player.</value>
+  </data>
+  <data name="Text_Client_Connection_Failure_Notice" xml:space="preserve">
+    <value>Connection failure!</value>
+  </data>
+  <data name="Text_Client_Connection_Refused_Chat" xml:space="preserve">
+    <value>Connection refused: unable to logon to chat server</value>
+  </data>
+  <data name="Text_Client_Connection_Refused_Default_Chat" xml:space="preserve">
+    <value>Connection refused: unable to join default chat channel</value>
+  </data>
+  <data name="Text_Client_Connection_Refused_Invalid_Password" xml:space="preserve">
+    <value>Connection refused: invalid password</value>
+  </data>
+  <data name="Text_Client_Connection_Refused_Name_Already_Connected" xml:space="preserve">
+    <value>Connection refused: player already logged in.</value>
+  </data>
+  <data name="Text_Client_Connection_Refused_Unknown" xml:space="preserve">
+    <value>Connection refused: unknown reason.</value>
+  </data>
+  <data name="Text_Client_Connection_Success_Notice" xml:space="preserve">
+    <value>Connection success!</value>
+  </data>
+  <data name="Text_Client_Error_Saving_Settings" xml:space="preserve">
+    <value>Error saving client settings: {0}</value>
+    <comment>0 = Exception Text</comment>
+  </data>
+  <data name="Text_Client_Expected_Disconnection" xml:space="preserve">
+    <value>Successful physical disconnection!</value>
+  </data>
+  <data name="Text_Client_Startup_Greeting" xml:space="preserve">
+    <value>** Lost Cities Client now active, type in stuff at console for now **</value>
+  </data>
+  <data name="Text_Client_The_Server" xml:space="preserve">
+    <value>the server.</value>
+    <comment>Tacked onto the kick message if no player initiated the kick (Bob was kicked by the server.)</comment>
+  </data>
+  <data name="Text_Client_Unexpected_Disconnection" xml:space="preserve">
+    <value>Unexpected physical disconnection!</value>
+  </data>
+  <data name="Text_Client_Chat_Leave_Failure_Not_Allowed" xml:space="preserve">
+    <value>CHATERROR: You are not allowed to leave that channel.</value>
+  </data>
+  <data name="Text_Client_Chat_Leave_Failure_Not_A_Member" xml:space="preserve">
+    <value>CHAT ERROR: You are not a member of that channel.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Join_Channel" xml:space="preserve">
+    <value>Tries to join a chat channel.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Leave_Channel" xml:space="preserve">
+    <value>Leaves a chat channel.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_List_Members" xml:space="preserve">
+    <value>Lists all members and statuses of a channel.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Mod_Gag" xml:space="preserve">
+    <value>Gags a player in a chat channel.  Requires moderator status.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Mod_Kick" xml:space="preserve">
+    <value>Kicks a player from a chat channel.  Requires moderator status.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Mod_Transfer" xml:space="preserve">
+    <value>Transfers moderator status of a channel to another player.  Requires moderator status.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Mod_Ungag" xml:space="preserve">
+    <value>Ungags a player in a chat channel.  Requires moderator status.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Reply" xml:space="preserve">
+    <value>Send a message directly to the player who last send you a tell.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Chat_Tell" xml:space="preserve">
+    <value>Send a message directly to another player.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Connect" xml:space="preserve">
+    <value>Connects an unconnected client to a remote server.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Disconnect" xml:space="preserve">
+    <value>Disconnects the client from the server.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Number" xml:space="preserve">
+    <value>Broadcasts on the chat channel associated with the input number.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Test" xml:space="preserve">
+    <value>A development test command, what it does varies over time.</value>
+  </data>
+  <data name="Text_Client_Not_Connected_To_Server" xml:space="preserve">
+    <value>You must be connected to a server in order to do that.</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Join_Channel_Param_ChannelName" xml:space="preserve">
+    <value>Channel Name</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Leave_Channel_Param_ChannelIdentifier" xml:space="preserve">
+    <value>Channel Name Or Number</value>
+  </data>
+  <data name="Text_Client_Command_Chat_List_Members_Param_ChannelIdentifier" xml:space="preserve">
+    <value>Channel Name Or Number</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Gag_Param_ChannelIdentifier" xml:space="preserve">
+    <value>Channel Name Or Number</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Gag_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Kick_Param_ChannelIdentifier" xml:space="preserve">
+    <value>Channel Name Or Number</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Kick_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Transfer_Param_ChannelIdentifier" xml:space="preserve">
+    <value>Channel Name Or Number</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Transfer_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Ungag_Param_ChannelIdentifier" xml:space="preserve">
+    <value>Channel Name Or Number</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Mod_Ungag_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Reply_Param_ChatMessage" xml:space="preserve">
+    <value>Chat Message</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Tell_Param_ChatMessage" xml:space="preserve">
+    <value>Chat Message</value>
+  </data>
+  <data name="Text_Client_Command_Chat_Tell_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Connect_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Connect_Param_ServerAddress" xml:space="preserve">
+    <value>Server IP Address</value>
+  </data>
+  <data name="Text_Client_Command_Connect_Param_ServerPort" xml:space="preserve">
+    <value>Server Port</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Create_Param_GameDescription" xml:space="preserve">
+    <value>Game Description</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Create_Param_GameMode" xml:space="preserve">
+    <value>Game Mode</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Create_Param_AllowObservers" xml:space="preserve">
+    <value>Allow Observers</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Create_Param_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Join_By_Player_Param_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Join_By_Player_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Join_Channel" xml:space="preserve">
+    <value>chatjoin</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Leave_Channel" xml:space="preserve">
+    <value>chatleave</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_List_Members" xml:space="preserve">
+    <value>chatlist</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Mod_Gag" xml:space="preserve">
+    <value>chatgag</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Mod_Kick" xml:space="preserve">
+    <value>chatkick</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Mod_Transfer" xml:space="preserve">
+    <value>chattransfer</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Mod_Ungag" xml:space="preserve">
+    <value>chatungag</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Reply" xml:space="preserve">
+    <value>reply</value>
+  </data>
+  <data name="Text_Client_Command_Name_Chat_Tell" xml:space="preserve">
+    <value>tell</value>
+  </data>
+  <data name="Text_Client_Command_Name_Connect" xml:space="preserve">
+    <value>connect</value>
+  </data>
+  <data name="Text_Client_Command_Name_Disconnect" xml:space="preserve">
+    <value>disconnect</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Create" xml:space="preserve">
+    <value>lobbycreate</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Join_By_Name" xml:space="preserve">
+    <value>lobbyjoin</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Join_By_Player" xml:space="preserve">
+    <value>lobbyplayerjoin</value>
+  </data>
+  <data name="Text_Client_Command_Name_Number" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Text_Client_Command_Name_Test" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="Text_Client_Command_Number_Param_ChatMessage" xml:space="preserve">
+    <value>Chat Message</value>
+  </data>
+  <data name="Text_Client_Command_Shortcut_Connect" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="Text_Client_Command_Test_Param_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Create" xml:space="preserve">
+    <value>Creates a new lobby where a game can be formed and launched.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Join_By_Name" xml:space="preserve">
+    <value>Joins a lobby by name</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Join_By_Player" xml:space="preserve">
+    <value>Joins a player's lobby</value>
+  </data>
+  <data name="Text_Client_Lobby_Create_Invalid_Config_Data" xml:space="preserve">
+    <value>Lobby creation failure: invalid configuration data</value>
+  </data>
+  <data name="Text_Client_Lobby_Create_Invalid_Creator_State" xml:space="preserve">
+    <value>You are not allowed to create a lobby right now.</value>
+  </data>
+  <data name="Text_Client_Lobby_Create_Success" xml:space="preserve">
+    <value>Successfully created lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Destroy_Not_Creator" xml:space="preserve">
+    <value>You must be the lobby's creator in order to destroy it.</value>
+  </data>
+  <data name="Text_Client_Lobby_Destroy_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Lobby_Full" xml:space="preserve">
+    <value>Unable to join lobby: the lobby is full</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Password_Mismatch" xml:space="preserve">
+    <value>Unable to join lobby: incorrect password</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Player_Does_Not_Exist" xml:space="preserve">
+    <value>Unable to join lobby: unknown player</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Player_Not_In_A_Lobby" xml:space="preserve">
+    <value>Unable to join lobby: target player not in a lobby</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Success" xml:space="preserve">
+    <value>Successfully joined lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Creator_Cannot_Leave" xml:space="preserve">
+    <value>You are not allowed to leave a lobby that you created.  You must destroy the lobby in order to leave.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Lobby_Destroyed" xml:space="preserve">
+    <value>The lobby was destroyed by {1}.</value>
+    <comment>1 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Player_Left" xml:space="preserve">
+    <value>{0} left the lobby.</value>
+    <comment>0 = leaving player</comment>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Someone_Was_Kicked" xml:space="preserve">
+    <value>{0} was kicked from the lobby by {1}.</value>
+    <comment>0 = kicked player, 1 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Unknown_Lobby" xml:space="preserve">
+    <value>Unable to leave lobby.  Internal error.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Unknown_Reason" xml:space="preserve">
+    <value>{0} left the lobby due to an unknown error.</value>
+    <comment>0 = leaving player</comment>
+  </data>
+  <data name="Text_Client_Lobby_Leave_You_Destroyed_The_Lobby" xml:space="preserve">
+    <value>You shutdown the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_You_Kicked_Someone" xml:space="preserve">
+    <value>You kicked {0} from the lobby.</value>
+    <comment>0 = kicked player</comment>
+  </data>
+  <data name="Text_Client_Lobby_Leave_You_Left" xml:space="preserve">
+    <value>You left the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_You_Were_Kicked" xml:space="preserve">
+    <value>You were kicked from the lobby by {1}.</value>
+    <comment>1 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Player_Joined" xml:space="preserve">
+    <value>{0} joined the lobby.</value>
+    <comment>0 = joining player</comment>
+  </data>
+  <data name="Text_Client_Chat_Available_Channels" xml:space="preserve">
+    <value>Available chat channels: </value>
+  </data>
+  <data name="Text_Client_Chat_Not_Connected" xml:space="preserve">
+    <value>You are not connected to a chat server.</value>
+  </data>
+  <data name="Text_Client_Chat_No_Channels_Available" xml:space="preserve">
+    <value>You are not subscribed to any chat channels.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Info" xml:space="preserve">
+    <value>lobbyinfo</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Info" xml:space="preserve">
+    <value>Lists all the information about the currently joined lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Header" xml:space="preserve">
+    <value>Current lobby state:\n</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Member_Info_Format" xml:space="preserve">
+    <value>{0,-20} {1, -28} {2,-10} {3,-6} {4, -10}</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Member_Info_Header_Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Member_Info_Header_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Member_Info_Header_Ready" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Member_Info_Header_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Settings" xml:space="preserve">
+    <value>ID = {0}\nDescription = {1}\nMode = {2}\nAllowObservers = {3}\nPassword = {4}\nCreationTime = {5}\nCreator = {6}</value>
+  </data>
+  <data name="Text_Client_Lobby_No_Info_Possible" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Player_Not_Ready" xml:space="preserve">
+    <value>Not Ready</value>
+  </data>
+  <data name="Text_Client_Lobby_Player_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Destroy" xml:space="preserve">
+    <value>lobbydestroy</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Leave" xml:space="preserve">
+    <value>lobbyleave</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Destroy" xml:space="preserve">
+    <value>Destroys a lobby that are the creator of.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Leave" xml:space="preserve">
+    <value>Leaves a lobby that you are currently a member of.</value>
+  </data>
+  <data name="Text_Client_Lobby_Player_Disconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Rejoin_Failure" xml:space="preserve">
+    <value>Unable to rejoin lobby.</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Ban_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Kick_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_State_Param_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Unban_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Ban" xml:space="preserve">
+    <value>lobbyban</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Kick" xml:space="preserve">
+    <value>lobbykick</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_State" xml:space="preserve">
+    <value>lobbystate</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Unban" xml:space="preserve">
+    <value>lobbyunban</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Ban" xml:space="preserve">
+    <value>Bans a player from the current lobby.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Kick" xml:space="preserve">
+    <value>Kicks a player from the current lobby.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_State" xml:space="preserve">
+    <value>Changes your current lobby state (Ready, Not_Ready)</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Unban" xml:space="preserve">
+    <value>Unbans a player from the current lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Ban_Already_Banned" xml:space="preserve">
+    <value>That player is already banned.</value>
+  </data>
+  <data name="Text_Client_Lobby_Ban_Cannot_Ban_Self" xml:space="preserve">
+    <value>You cannot ban yourself from the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Ban_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Ban_Not_Lobby_Creator" xml:space="preserve">
+    <value>You do not have permission to do that.</value>
+  </data>
+  <data name="Text_Client_Lobby_Ban_Successful" xml:space="preserve">
+    <value>You banned {0} from the lobby.</value>
+    <comment>0 = banned player</comment>
+  </data>
+  <data name="Text_Client_Lobby_Join_Banned" xml:space="preserve">
+    <value>You cannot join that lobby because you have been banned by its creator.</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Invalid_State_To_Join" xml:space="preserve">
+    <value>You are not allowed to join a lobby right now.</value>
+  </data>
+  <data name="Text_Client_Lobby_Kick_Cannot_Kick_Self" xml:space="preserve">
+    <value>You cannot kick yourself from the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Kick_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Kick_Not_Lobby_Creator" xml:space="preserve">
+    <value>You do not have permission to do that.</value>
+  </data>
+  <data name="Text_Client_Lobby_Kick_Player_Not_In_Lobby" xml:space="preserve">
+    <value>That player is not in the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Someone_Was_Banned" xml:space="preserve">
+    <value>{0} was banned from the lobby by {1}.</value>
+    <comment>0 = banned player, 1 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Leave_You_Were_Banned" xml:space="preserve">
+    <value>You were banned from the lobby by {1}.</value>
+    <comment>1 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Unbanned" xml:space="preserve">
+    <value>You were unbanned from {0}'s lobby.</value>
+    <comment>0 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Unban_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Unban_Not_Lobby_Creator" xml:space="preserve">
+    <value>You do not have permission to do that.</value>
+  </data>
+  <data name="Text_Client_Lobby_Unban_Player_Not_Banned" xml:space="preserve">
+    <value>That player has not been banned from the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Unban_Successful" xml:space="preserve">
+    <value>You unbanned {0} from the lobby.</value>
+    <comment>0 = banned player</comment>
+  </data>
+  <data name="Text_Client_Command_Lobby_Move_Param_DestinationCategory" xml:space="preserve">
+    <value>Move Destination Category (Player or Observer)</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Move_Param_DestinationIndex" xml:space="preserve">
+    <value>Move Destination Index</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Move_Param_PlayerName" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Move" xml:space="preserve">
+    <value>lobbymove</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Move" xml:space="preserve">
+    <value>Moves a player within the lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Info_Member_Info_Header_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_Invalid_Move_Destination" xml:space="preserve">
+    <value>Unable to move player in lobby: invalid destination</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_Not_Lobby_Creator" xml:space="preserve">
+    <value>You do not have permission to do that.</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_No_Change" xml:space="preserve">
+    <value>Unable to move player in lobby: no net change</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_Player_Not_In_Lobby" xml:space="preserve">
+    <value>Unable to move player in lobby: target player not in a lobby</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_Unknown_Player" xml:space="preserve">
+    <value>Lobby move error: unknown player '{0}'</value>
+    <comment>0 = player to move</comment>
+  </data>
+  <data name="Text_Client_Command_Name_Social_Ignore" xml:space="preserve">
+    <value>ignoreadd</value>
+  </data>
+  <data name="Text_Client_Command_Name_Social_Unignore" xml:space="preserve">
+    <value>ignoreremove</value>
+  </data>
+  <data name="Text_Client_Command_Social_Ignore_Param_PlayerName" xml:space="preserve">
+    <value>Name of the player to ignore.</value>
+  </data>
+  <data name="Text_Client_Command_Social_Unignore_Param_PlayerName" xml:space="preserve">
+    <value>Name of the player to remove from your ignore list.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Social_Ignore" xml:space="preserve">
+    <value>Adds a player to your ignore list.  This filters out the other player's chat, as well as prevents them from joining a lobby you create and prevents matchmaking from putting the two of you in the same lobby.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Social_Unignore" xml:space="preserve">
+    <value>Removes a player from your ignore list.</value>
+  </data>
+  <data name="Text_Client_Social_Ignore_Already_Ignored" xml:space="preserve">
+    <value>{0} is already being ignored.</value>
+    <comment>0 = Ignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Ignore_Persistence_Error" xml:space="preserve">
+    <value>Unable to ignore {0} due to an unknown persistence error.</value>
+    <comment>0 = Ignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Ignore_Success" xml:space="preserve">
+    <value>You are now ignoring {0}.</value>
+    <comment>0 = Ignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Ignore_Unknown_Player" xml:space="preserve">
+    <value>Unable to ignore {0}.  Unknown player.</value>
+    <comment>0 = Ignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Unignore_Not_Already_Ignored" xml:space="preserve">
+    <value>{0} is not on your ignore list.</value>
+    <comment>0 = Unignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Unignore_Persistence_Error" xml:space="preserve">
+    <value>Unable to unignore {0} due to an unknown persistence error.</value>
+    <comment>0 = Unignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Unignore_Success" xml:space="preserve">
+    <value>{0} is no longer being ignored.</value>
+    <comment>0 = Unignore target</comment>
+  </data>
+  <data name="Text_Client_Social_Unignore_Unknown_Player" xml:space="preserve">
+    <value>Unable to unignore {0}.  Unknown player.</value>
+    <comment>0 = Unignore target</comment>
+  </data>
+  <data name="Text_Client_Chat_Tell_Ignored" xml:space="preserve">
+    <value>That player is ignoring you.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Social_Ignore_List" xml:space="preserve">
+    <value>ignorelist</value>
+  </data>
+  <data name="Text_Client_Connection_Refused_Internal_Persistence_Error" xml:space="preserve">
+    <value>Connection refused: internal persistence error</value>
+  </data>
+  <data name="Text_Client_Help_Command_Social_Ignore_List" xml:space="preserve">
+    <value>Prints out a list of the players you are currently ignoring.</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Creator_Is_Ignoring_You" xml:space="preserve">
+    <value>You cannot join that lobby because you are being ignored by its creator.</value>
+  </data>
+  <data name="Text_Client_Social_Ignore_Cannot_Ignore_Self" xml:space="preserve">
+    <value>You cannot ignore yourself.</value>
+  </data>
+  <data name="Text_Client_Social_Ignore_List_Header" xml:space="preserve">
+    <value>You are currently ignoring: </value>
+  </data>
+  <data name="Text_Client_Command_Browse_Lobby_Start_Param_GameModes" xml:space="preserve">
+    <value>Bit mask controlling what game modes match the browse request ( Two_Players | Four_Players )</value>
+  </data>
+  <data name="Text_Client_Command_Browse_Lobby_Start_Param_MemberTypes" xml:space="preserve">
+    <value>Bit mask controlling what lobby member roles match the browse request ( Player | Observer )</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Join_By_ID_Param_LobbyID" xml:space="preserve">
+    <value>The ID of the lobby to join.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Browse_Lobby_End" xml:space="preserve">
+    <value>browseend</value>
+  </data>
+  <data name="Text_Client_Command_Name_Browse_Lobby_Next_Set" xml:space="preserve">
+    <value>browsenext</value>
+  </data>
+  <data name="Text_Client_Command_Name_Browse_Lobby_Previous_Set" xml:space="preserve">
+    <value>browseprevious</value>
+  </data>
+  <data name="Text_Client_Command_Name_Browse_Lobby_Start" xml:space="preserve">
+    <value>browsestart</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Join_By_ID" xml:space="preserve">
+    <value>lobbyidjoin</value>
+  </data>
+  <data name="Text_Client_Help_Command_Browse_Lobby_End" xml:space="preserve">
+    <value>Stops browsing through the set of open lobbies.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Browse_Lobby_Next_Set" xml:space="preserve">
+    <value>Moves forward through the set of open lobbies.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Browse_Lobby_Previous_Set" xml:space="preserve">
+    <value>Moves backward through the set of open lobbies.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Browse_Lobby_Start" xml:space="preserve">
+    <value>Starts browsing through the set of open lobbies.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Join_By_ID" xml:space="preserve">
+    <value>Attempts to join the lobby with the supplied ID.</value>
+  </data>
+  <data name="Text_Client_Lobby_Join_Lobby_Does_Not_Exist" xml:space="preserve">
+    <value>Lobby join error: lobby does not exist.</value>
+  </data>
+  <data name="Text_Client_Browse_Cursor_Not_Browsing" xml:space="preserve">
+    <value>You are not currently browsing lobbies.</value>
+  </data>
+  <data name="Text_Client_Browse_List_Header" xml:space="preserve">
+    <value>Currently visible lobbies:\n</value>
+  </data>
+  <data name="Text_Client_Browse_List_No_Lobbies" xml:space="preserve">
+    <value>No lobbies are currently being watched.</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Format" xml:space="preserve">
+    <value>{0,-8} {1, -14} {2,-18} {3,-15} {4, -9}{5, -9}</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Header_CreationTime" xml:space="preserve">
+    <value>CreationTime</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Header_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Header_GameMode" xml:space="preserve">
+    <value>GameMode</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Header_ID" xml:space="preserve">
+    <value>LobbyID</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Header_ObserverCount" xml:space="preserve">
+    <value>Observers</value>
+  </data>
+  <data name="Text_Client_Browse_List_Summary_Info_Header_PlayerCount" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="Text_Client_Browse_Start_Invalid_State" xml:space="preserve">
+    <value>You cannot browse lobbies right now.</value>
+  </data>
+  <data name="Text_Client_Browse_Start_Success" xml:space="preserve">
+    <value>Successfully browsing open lobbies.</value>
+  </data>
+  <data name="Text_Client_Command_Browse_Lobby_Start_Param_JoinFirstAvailable" xml:space="preserve">
+    <value>Join the first matching lobby</value>
+  </data>
+  <data name="Text_Client_Command_Name_Browse_Lobby_List" xml:space="preserve">
+    <value>browselist</value>
+  </data>
+  <data name="Text_Client_Game_Mode_Four_Players" xml:space="preserve">
+    <value>Four Players</value>
+  </data>
+  <data name="Text_Client_Game_Mode_Two_Players" xml:space="preserve">
+    <value>Two Players</value>
+  </data>
+  <data name="Text_Client_Help_Command_Browse_Lobby_List" xml:space="preserve">
+    <value>Lists all lobbies currently under observation by the browsing process.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Quit" xml:space="preserve">
+    <value>quit</value>
+  </data>
+  <data name="Text_Client_Help_Command_Quit" xml:space="preserve">
+    <value>Forces the client to terminate</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Creator_Disconnect_Timeout" xml:space="preserve">
+    <value>The lobby was destroyed due to the creator's disconnect timeout.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Disconnect_Timeout" xml:space="preserve">
+    <value>{0} was removed from the lobby due to a disconnect timeout.</value>
+    <comment>0 = removed player</comment>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Start_Match" xml:space="preserve">
+    <value>lobbystartmatch</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Start_Match" xml:space="preserve">
+    <value>Starts the match</value>
+  </data>
+  <data name="Text_Client_Lobby_Ban_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Lobby_Destroy_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Lobby_Kick_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Lobby_Leave_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Lobby_Move_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Lobby_Start_Match_Insufficient_Players" xml:space="preserve">
+    <value>You cannot start the match because there are not enough players.</value>
+  </data>
+  <data name="Text_Client_Lobby_Start_Match_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Lobby_Start_Match_Not_Everyone_Ready" xml:space="preserve">
+    <value>You cannot start the match because not all players are ready.</value>
+  </data>
+  <data name="Text_Client_Lobby_Start_Match_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Start_Match_Not_Lobby_Creator" xml:space="preserve">
+    <value>You must be the lobby creator in order to start the match.</value>
+  </data>
+  <data name="Text_Client_Lobby_Unban_Lobby_Not_Ready" xml:space="preserve">
+    <value>Lobby is not currently in a state that allows that operation.</value>
+  </data>
+  <data name="Text_Client_Match_Halt_Because_Player_Left" xml:space="preserve">
+    <value>The match was halted because a player left.</value>
+  </data>
+  <data name="Text_Client_Match_Join_Success" xml:space="preserve">
+    <value>You successfully joined the match.</value>
+  </data>
+  <data name="Text_Client_Match_Player_Removed_By_Request" xml:space="preserve">
+    <value>{0} left the match.</value>
+    <comment>0 = leaving player name</comment>
+  </data>
+  <data name="Text_Client_Match_Player_Removed_Disconnect_Timeout" xml:space="preserve">
+    <value>{0} left the match due to a disconnect timeout.</value>
+    <comment>0 = leaving player name</comment>
+  </data>
+  <data name="Text_Client_Match_Shutdown" xml:space="preserve">
+    <value>You left the match.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Leave" xml:space="preserve">
+    <value>matchleave</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Leave" xml:space="preserve">
+    <value>Leaves the current match.  If you are a player in the match, this will end the match.</value>
+  </data>
+  <data name="Text_Client_Match_Leave_Not_In_Match" xml:space="preserve">
+    <value>You are not in a match.</value>
+  </data>
+  <data name="Text_Client_Match_Player_Removed_By_Request_Self" xml:space="preserve">
+    <value>You left the match.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Info" xml:space="preserve">
+    <value>matchinfo</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Info" xml:space="preserve">
+    <value>Outputs the current match's state to the console.</value>
+  </data>
+  <data name="Text_Client_Game_Info_Current_Player" xml:space="preserve">
+    <value>CurrentTurn: {0}</value>
+  </data>
+  <data name="Text_Client_Game_Info_Game_Mode" xml:space="preserve">
+    <value>GameMode: {0}</value>
+  </data>
+  <data name="Text_Client_Game_Info_Side_Bindings" xml:space="preserve">
+    <value>Sides:</value>
+  </data>
+  <data name="Text_Client_Game_Info_Side_Binding_Entry" xml:space="preserve">
+    <value>  {0} -&gt; {1}</value>
+  </data>
+  <data name="Text_Client_Match_Info_Admin_List" xml:space="preserve">
+    <value>Admins: {0}</value>
+  </data>
+  <data name="Text_Client_Match_Info_No_Match" xml:space="preserve">
+    <value>You are not in a match.</value>
+  </data>
+  <data name="Text_Client_Match_Info_Observer_List" xml:space="preserve">
+    <value>Observers: {0}</value>
+  </data>
+  <data name="Text_Client_Match_Info_Player_List" xml:space="preserve">
+    <value>\nPlayers: {0}</value>
+  </data>
+  <data name="Text_Client_Match_Info_Side_Header_Lost" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="Text_Client_Match_Info_Side_Header_Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Text_Client_Match_Info_Side_Header_Side" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="Text_Client_Match_Info_Side_Header_Won" xml:space="preserve">
+    <value>Won</value>
+  </data>
+  <data name="Text_Client_Match_Info_Side_Row" xml:space="preserve">
+    <value> {0, -10}{1, -8}{2, -6}{3, -6}{4, -6}</value>
+  </data>
+  <data name="Text_Client_Game_Info_Deck_State" xml:space="preserve">
+    <value>Deck({0}): {1}</value>
+    <comment>0 = card count, 1 = card list</comment>
+  </data>
+  <data name="Text_Client_Command_Match_UI_Discard_Card_Param_Color" xml:space="preserve">
+    <value>Color of card to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_UI_Discard_Card_Param_Value" xml:space="preserve">
+    <value>Value of card to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_UI_Draw_From_Discard_Param_Color" xml:space="preserve">
+    <value>Color of discard pile to draw from</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Pass_Cards_Param_Color1" xml:space="preserve">
+    <value>Color of the first card to pass to your partner.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Pass_Cards_Param_Color2" xml:space="preserve">
+    <value>Color of the second card to pass to your partner.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Pass_Cards_Param_Value1" xml:space="preserve">
+    <value>Value of the first card to pass to your partner.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Pass_Cards_Param_Value2" xml:space="preserve">
+    <value>Value of the second card to pass to your partner.</value>
+  </data>
+  <data name="Text_Client_Command_Match_UI_Play_Card_Param_Color" xml:space="preserve">
+    <value>Color of card to play</value>
+  </data>
+  <data name="Text_Client_Command_Match_UI_Play_Card_Param_Value" xml:space="preserve">
+    <value>Value of card to play</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_UI_Discard_Card" xml:space="preserve">
+    <value>matchuidiscard</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_UI_Draw_From_Deck" xml:space="preserve">
+    <value>matchuidrawdeck</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_UI_Draw_From_Discard" xml:space="preserve">
+    <value>matchuidrawdiscard</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_End_Turn" xml:space="preserve">
+    <value>matchendturn</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Turn_Pass_Cards" xml:space="preserve">
+    <value>matchpasscards</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_UI_Play_Card" xml:space="preserve">
+    <value>matchuiplay</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Reset_Turn" xml:space="preserve">
+    <value>matchresetturn</value>
+  </data>
+  <data name="Text_Client_Game_Info_Collection" xml:space="preserve">
+    <value>    {0} - {1}</value>
+    <comment>0 = color, 1 = card list</comment>
+  </data>
+  <data name="Text_Client_Game_Info_Collection_Header" xml:space="preserve">
+    <value>Collections:</value>
+  </data>
+  <data name="Text_Client_Game_Info_Collection_Side_Header" xml:space="preserve">
+    <value>  {0}:</value>
+    <comment>0 = side</comment>
+  </data>
+  <data name="Text_Client_Game_Info_Discard_Pile" xml:space="preserve">
+    <value>  {0}: {1}</value>
+    <comment>0 = color, 1 = card list</comment>
+  </data>
+  <data name="Text_Client_Game_Info_Discard_Pile_Header" xml:space="preserve">
+    <value>Discard Piles:</value>
+  </data>
+  <data name="Text_Client_Game_Info_Player_Hand" xml:space="preserve">
+    <value>  {0} - ({1}) {2}</value>
+    <comment>0 = player name, 1 = card list count, 2 = card list</comment>
+  </data>
+  <data name="Text_Client_Game_Info_Player_Hand_Header" xml:space="preserve">
+    <value>Player Hands:</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_UI_Discard_Card" xml:space="preserve">
+    <value>Discards a card from your hand into a shared discard pile (goes through UI thread ).</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_UI_Draw_From_Deck" xml:space="preserve">
+    <value>Draws a new card from the deck into your hand (goes through UI thread ).</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_UI_Draw_From_Discard" xml:space="preserve">
+    <value>Draws a card from the top of a discard pile into your hand (goes through UI thread ).</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_End_Turn" xml:space="preserve">
+    <value>Ends your turn and submits the requested game actions to the server for approval.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Turn_Pass_Cards" xml:space="preserve">
+    <value>Passes two cards from your hand to your partner's hand.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_UI_Play_Card" xml:space="preserve">
+    <value>Plays a card from your hand into your collection (goes through UI thread ).</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Reset_Turn" xml:space="preserve">
+    <value>Resets the set of game actions composing your turn.</value>
+  </data>
+  <data name="Text_Client_Game_Action_A_Higher_Card_Already_Exists" xml:space="preserve">
+    <value>You cannot play that card because a higher card is blocking it.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Cannot_Play_A_Card_After_Passing_Cards" xml:space="preserve">
+    <value>You cannot play or discard a card after passing cards.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Cannot_Play_More_Than_One_Card" xml:space="preserve">
+    <value>You cannot play or discard more than one card per turn.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Can_Only_Pass_Cards_In_A_Four_Player_Game" xml:space="preserve">
+    <value>You can only pass cards in a four player game.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Can_Only_Pass_One_Set_Of_Cards" xml:space="preserve">
+    <value>You can only pass one set of cards per turn.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Is_Not_In_Your_Hand" xml:space="preserve">
+    <value>That card is not in your hand.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Not_Your_Turn" xml:space="preserve">
+    <value>It is not your turn.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Turn_Is_Already_Complete" xml:space="preserve">
+    <value>Your turn is complete and you cannot take any further actions.</value>
+  </data>
+  <data name="Text_Client_Game_Action_You_Must_Play_A_Card_Before_Drawing" xml:space="preserve">
+    <value>You must play or discard a card before drawing a card.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Discard_Shortform_Param_CardShortform" xml:space="preserve">
+    <value>Shortform code for the card in your hand to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_Discard_Shortform_Param_DrawCode" xml:space="preserve">
+    <value>Shortform code for where to draw from.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Pass_Shortform_Param_CardShortform1" xml:space="preserve">
+    <value>Shortform code for the first card in your hand to pass</value>
+  </data>
+  <data name="Text_Client_Command_Match_Pass_Shortform_Param_CardShortform2" xml:space="preserve">
+    <value>Shortform code for the second card in your hand to pass</value>
+  </data>
+  <data name="Text_Client_Command_Match_Play_Shortform_Param_CardShortform" xml:space="preserve">
+    <value>Shortform code for the card in your hand to play.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Play_Shortform_Param_DrawCode" xml:space="preserve">
+    <value>Shortform code for where to draw from.</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Discard_And_Draw_Deck_Param_Color" xml:space="preserve">
+    <value>Color of card to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Discard_And_Draw_Deck_Param_Value" xml:space="preserve">
+    <value>Value of card to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Discard_And_Draw_Discard_Param_Color" xml:space="preserve">
+    <value>Color of card to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Discard_And_Draw_Discard_Param_DrawColor" xml:space="preserve">
+    <value>Color of discard pile to draw from</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Discard_And_Draw_Discard_Param_Value" xml:space="preserve">
+    <value>Value of card to discard</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Play_And_Draw_Deck_Param_Color" xml:space="preserve">
+    <value>Color of card to play</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Play_And_Draw_Deck_Param_Value" xml:space="preserve">
+    <value>Value of card to play</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Play_And_Draw_Discard_Param_Color" xml:space="preserve">
+    <value>Color of card to play</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Play_And_Draw_Discard_Param_DrawColor" xml:space="preserve">
+    <value>Color of discard pile to draw from</value>
+  </data>
+  <data name="Text_Client_Command_Match_Turn_Play_And_Draw_Discard_Param_Value" xml:space="preserve">
+    <value>Value of card to play</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Discard_Shortform" xml:space="preserve">
+    <value>mdiscard</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Pass_Shortform" xml:space="preserve">
+    <value>mpass</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Play_Shortform" xml:space="preserve">
+    <value>mplay</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Score" xml:space="preserve">
+    <value>mscore</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Turn_Discard_And_Draw_Deck" xml:space="preserve">
+    <value>matchdiscardanddrawdeck</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Turn_Discard_And_Draw_Discard" xml:space="preserve">
+    <value>matchdiscardanddrawdiscard</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Turn_Play_And_Draw_Deck" xml:space="preserve">
+    <value>matchplayanddrawdeck</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Turn_Play_And_Draw_Discard" xml:space="preserve">
+    <value>matchplayanddrawdiscard</value>
+  </data>
+  <data name="Text_Client_Game_Action_Application_Success" xml:space="preserve">
+    <value>Turn successfully applied!</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Discarded_Other" xml:space="preserve">
+    <value>{0} discarded the card: {1}.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Discarded_Self" xml:space="preserve">
+    <value>You discarded the card: {0}.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Drawn" xml:space="preserve">
+    <value>You drew the card: {0}</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Drawn_Other" xml:space="preserve">
+    <value>{0} drew the card {1} from a discard pile.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Played_Other" xml:space="preserve">
+    <value>{0} played the card: {1}.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Card_Played_Self" xml:space="preserve">
+    <value>You played the card: {0}.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Deck_Is_Empty" xml:space="preserve">
+    <value>You cannot draw from an empty deck.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Discard_Card_Must_Be_First_Action" xml:space="preserve">
+    <value>Discarding a card can only be your first faction.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Discard_Pile_Is_Empty" xml:space="preserve">
+    <value>You cannot draw from an empty discard pile.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Invalid_Card_Shortform" xml:space="preserve">
+    <value>'{0}' is not a valid card shortform.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Invalid_Turn" xml:space="preserve">
+    <value>The submitted turn is invalid.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Match_Halted" xml:space="preserve">
+    <value>The match is halted and no more actions can be taken.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Not_A_Player" xml:space="preserve">
+    <value>You are not a player in the current match.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Not_Enough_Cards_In_Hand_To_Pass" xml:space="preserve">
+    <value>You need to have at least eight cards in your hand in order to pass cards to your partner.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Not_In_Match" xml:space="preserve">
+    <value>You are not in a match.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Passing_Cards_Must_Be_Only_Action" xml:space="preserve">
+    <value>If you pass cards, it must be your only action for the turn.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Play_Card_Must_Be_First_Action" xml:space="preserve">
+    <value>Playing a card can only be your first faction.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Queued" xml:space="preserve">
+    <value>Turn successfully queued.  Use /{0} to submit your turn to the server.</value>
+    <comment>0 = matchendturn command name</comment>
+  </data>
+  <data name="Text_Client_Game_Action_Turn_Is_Incomplete" xml:space="preserve">
+    <value>The submitted turn is incomplete.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Turn_Reset" xml:space="preserve">
+    <value>Your turn has been reset.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Turn_Submitted" xml:space="preserve">
+    <value>Your turn has been submitted to the server.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Two_Distinct_Cards_Must_Be_Passed" xml:space="preserve">
+    <value>Passed cards must be distinct.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Unknown_Card_Drawn_Other" xml:space="preserve">
+    <value>{0} drew a card from the deck.</value>
+  </data>
+  <data name="Text_Client_Game_Action_Your_Turn_Is_Incomplete" xml:space="preserve">
+    <value>You cannot end your turn yet; it is incomplete.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Discard_Shortform" xml:space="preserve">
+    <value>Discards a card from your hand and draws a card to replace it.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Pass_Shortform" xml:space="preserve">
+    <value>Passes two cards from your hand to your partner's hand.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Play_Shortform" xml:space="preserve">
+    <value>Plays a card from your hand and draws a card to replace it.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Score" xml:space="preserve">
+    <value>Outputs the scores for the current game and the cumulative scores for the match.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Turn_Discard_And_Draw_Deck" xml:space="preserve">
+    <value>Take a turn by discarding a card from your hand and drawing from the deck.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Turn_Discard_And_Draw_Discard" xml:space="preserve">
+    <value>Take a turn by discarding a card from your hand and drawing from a discard pile.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Turn_Play_And_Draw_Deck" xml:space="preserve">
+    <value>Take a turn by playing a card from your hand and drawing from the deck.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Turn_Play_And_Draw_Discard" xml:space="preserve">
+    <value>Take a turn by playing a card from your hand and drawing from a discard pile.</value>
+  </data>
+  <data name="Text_Client_Match_Halt_Because_Game_Over" xml:space="preserve">
+    <value>The match has been halted because the current game finished.</value>
+  </data>
+  <data name="Text_Client_Match_Halt_Because_Match_Over" xml:space="preserve">
+    <value>The match has been halted because all games have finished.</value>
+  </data>
+  <data name="Text_Client_Match_Score_Color" xml:space="preserve">
+    <value>   ({0}) = {1}</value>
+    <comment>0 = color, 1 = score</comment>
+  </data>
+  <data name="Text_Client_Match_Score_Game_Results" xml:space="preserve">
+    <value>   Wins: {0}, Losses: {1}, Draws: {2}</value>
+  </data>
+  <data name="Text_Client_Match_Score_Game_Total" xml:space="preserve">
+    <value>   Game Score: {0}</value>
+  </data>
+  <data name="Text_Client_Match_Score_Match_Total" xml:space="preserve">
+    <value>   Match Score: {0}</value>
+  </data>
+  <data name="Text_Client_Match_Score_No_Match" xml:space="preserve">
+    <value>You are not in a match.</value>
+  </data>
+  <data name="Text_Client_Match_Score_Side_Header" xml:space="preserve">
+    <value>Score for {0}:</value>
+  </data>
+  <data name="Text_Client_Command_Match_Continue_Param_Continue" xml:space="preserve">
+    <value>Continue the match or quit</value>
+  </data>
+  <data name="Text_Client_Command_Name_Match_Continue" xml:space="preserve">
+    <value>matchcontinue</value>
+  </data>
+  <data name="Text_Client_Continue_Match_Cannot_Change_Previous_Commitment" xml:space="preserve">
+    <value>You cannot change your previous response to continue or quit the match.</value>
+  </data>
+  <data name="Text_Client_Continue_Match_Match_Not_Halted" xml:space="preserve">
+    <value>The match is not currently halted.</value>
+  </data>
+  <data name="Text_Client_Continue_Match_Not_A_Player" xml:space="preserve">
+    <value>You are not a player in the match.</value>
+  </data>
+  <data name="Text_Client_Continue_Match_Not_In_Match" xml:space="preserve">
+    <value>You are not in a match.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Match_Continue" xml:space="preserve">
+    <value>Tells the server whether you wish to continue to the next game of a match or quit.</value>
+  </data>
+  <data name="Text_Client_Match_New_Game_Started" xml:space="preserve">
+    <value>A new game has been started.</value>
+  </data>
+  <data name="Text_Client_Command_Lobby_Change_Game_Count_Param_GameCount" xml:space="preserve">
+    <value>The number of games to play (zero means infinite).</value>
+  </data>
+  <data name="Text_Client_Command_Name_Lobby_Change_Game_Count" xml:space="preserve">
+    <value>lobbygamecount</value>
+  </data>
+  <data name="Text_Client_Continue_Match_Match_Is_Over" xml:space="preserve">
+    <value>You cannot start another game; the match is over.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Lobby_Change_Game_Count" xml:space="preserve">
+    <value>Sets the number of games to be played for the match.  Use zero to denote an open, arbitrary number of games.</value>
+  </data>
+  <data name="Text_Client_Lobby_Change_Game_Count_Not_In_A_Lobby" xml:space="preserve">
+    <value>You are not in a lobby.</value>
+  </data>
+  <data name="Text_Client_Lobby_Change_Game_Count_Not_Lobby_Creator" xml:space="preserve">
+    <value>You are not the lobby creator.</value>
+  </data>
+  <data name="Text_Client_Lobby_Game_Count_Changed_Finite_Other" xml:space="preserve">
+    <value>{1} changed the match's game count to {0}.</value>
+    <comment>1 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Game_Count_Changed_Finite_Self" xml:space="preserve">
+    <value>You changed the match's game count to {0}.</value>
+  </data>
+  <data name="Text_Client_Lobby_Game_Count_Changed_Infinite_Other" xml:space="preserve">
+    <value>{0} changed the match's game count to an unlimited amount.</value>
+    <comment>0 = lobby creator</comment>
+  </data>
+  <data name="Text_Client_Lobby_Game_Count_Changed_Infinite_Self" xml:space="preserve">
+    <value>You changed the match's game count to an unlimited amount.</value>
+  </data>
+  <data name="Text_Client_Match_Info_Side_Header_Drawn" xml:space="preserve">
+    <value>Drawn</value>
+  </data>
+  <data name="Text_Client_Game_Info_Game_Count" xml:space="preserve">
+    <value>Game {0}/{1}</value>
+  </data>
+  <data name="Text_Client_Game_Info_Game_State" xml:space="preserve">
+    <value>State: {0}</value>
+  </data>
+  <data name="Text_Client_Lobby_State_Change_Player_Disconnected" xml:space="preserve">
+    <value>{0} disconnected from the lobby.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Lobby_State_Change_Player_Not_Ready" xml:space="preserve">
+    <value>{0} is no longer ready to start the match.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Lobby_State_Change_Player_Ready" xml:space="preserve">
+    <value>{0} is now ready to start the match.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Lobby_State_Change_Player_Reconnected" xml:space="preserve">
+    <value>{0} has reconnected to the lobby.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Lobby_State_Change_Self_Not_Ready" xml:space="preserve">
+    <value>You are no longer ready to start the match.</value>
+  </data>
+  <data name="Text_Client_Lobby_State_Change_Self_Ready" xml:space="preserve">
+    <value>You are now ready to start the match.</value>
+  </data>
+  <data name="Text_Client_Match_Continue_State_Player_No" xml:space="preserve">
+    <value>{0} voted to stop the match.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Match_Continue_State_Player_Yes" xml:space="preserve">
+    <value>{0} voted to continue to the next game.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Match_Continue_State_Self_No" xml:space="preserve">
+    <value>You voted to stop the match.</value>
+  </data>
+  <data name="Text_Client_Match_Continue_State_Self_Yes" xml:space="preserve">
+    <value>You voted to continue to the next game.</value>
+  </data>
+  <data name="Text_Client_Command_Name_Quickmatch_Cancel_Quickmatch" xml:space="preserve">
+    <value>quickmatchcancel</value>
+  </data>
+  <data name="Text_Client_Command_Name_Quickmatch_Create_AI_Quickmatch" xml:space="preserve">
+    <value>quickmatchaicreate</value>
+  </data>
+  <data name="Text_Client_Command_Name_Quickmatch_Create_Quickmatch" xml:space="preserve">
+    <value>quickmatchcreate</value>
+  </data>
+  <data name="Text_Client_Command_Name_Quickmatch_Respond_To_Quickmatch_Request" xml:space="preserve">
+    <value>quickmatchreply</value>
+  </data>
+  <data name="Text_Client_Command_Quickmatch_Create_AI_Quickmatch_Param_AllowObservers" xml:space="preserve">
+    <value>Should observers be allowed to watch this quickmatch.</value>
+  </data>
+  <data name="Text_Client_Command_Quickmatch_Create_AI_Quickmatch_Param_GameCount" xml:space="preserve">
+    <value>How many games the quickmatch will consist of.</value>
+  </data>
+  <data name="Text_Client_Command_Quickmatch_Create_Quickmatch_Param_AllowObservers" xml:space="preserve">
+    <value>Are observers allowed to watch the quickmatch.</value>
+  </data>
+  <data name="Text_Client_Command_Quickmatch_Create_Quickmatch_Param_GameCount" xml:space="preserve">
+    <value>How many games the quickmatch will consist of.</value>
+  </data>
+  <data name="Text_Client_Command_Quickmatch_Create_Quickmatch_Param_PlayerName" xml:space="preserve">
+    <value>Player to invite to your quickmatch.</value>
+  </data>
+  <data name="Text_Client_Command_Quickmatch_Respond_To_Quickmatch_Request_Param_Response" xml:space="preserve">
+    <value>Acceptance or decline of the quickmatch request.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Quickmatch_Cancel_Quickmatch" xml:space="preserve">
+    <value>Cancels a pending quickmatch create request.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Quickmatch_Create_AI_Quickmatch" xml:space="preserve">
+    <value>Creates a two player quick match with an ai player.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Quickmatch_Create_Quickmatch" xml:space="preserve">
+    <value>Asks the specified player to join a quick match with you.</value>
+  </data>
+  <data name="Text_Client_Help_Command_Quickmatch_Respond_To_Quickmatch_Request" xml:space="preserve">
+    <value>Accepts or declines a quickmatch request.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Cancel_Not_In_Quickmatch" xml:space="preserve">
+    <value>You are not in a pending quickmatch.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Ignored_By_Target_Player" xml:space="preserve">
+    <value>Target cannot accept a quickmatch invite because they are ignoring you.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Invalid_State_To_Create" xml:space="preserve">
+    <value>You are not allowed to create a quickmatch right now.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Invite_Finite_Game_Count" xml:space="preserve">
+    <value>{0} has invited you to a quickmatch of {1} games.</value>
+    <comment>0 = player name, 1 = game count</comment>
+  </data>
+  <data name="Text_Client_Quickmatch_Invite_Indefinite_Game_Count" xml:space="preserve">
+    <value>{0} has invited you to an indefinite-length quickmatch.</value>
+    <comment>0 = player name</comment>
+  </data>
+  <data name="Text_Client_Quickmatch_No_Invite_Request" xml:space="preserve">
+    <value>You have not been invited to a quickmatch.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Target_Invalid_State_To_Create" xml:space="preserve">
+    <value>That player is not able to join a quickmatch right now.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Unknown_Target_Player" xml:space="preserve">
+    <value>Unknown player.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Already_Has_Pending_Quickmatch" xml:space="preserve">
+    <value>You already have a pending quickmatch.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Cannot_Invite_Yourself" xml:space="preserve">
+    <value>You cannot invite yourself to a quickmatch.</value>
+  </data>
+  <data name="Text_Client_Quickmatch_Create_Target_Already_Has_Pending_Quickmatch" xml:space="preserve">
+    <value>That player already has a pending quickmatch.</value>
+  </data>
+</root>

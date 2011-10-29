@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB05761B-0CEA-4E27-BAC5-FBD8A38E379D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRClientShared</RootNamespace>
+    <AssemblyName>CRClientShared</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ENABLE_LOGGING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;ENABLE_LOGGING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Chat\ChatClient.cs" />
+    <Compile Include="Source\Chat\ClientChatChannel.cs" />
+    <Compile Include="Source\ClientPlayerInfoManager.cs" />
+    <Compile Include="Source\ClientSettings.cs" />
+    <Compile Include="Source\Game\ClientMatchInstance.cs" />
+    <Compile Include="Source\Game\ClientMatchInstanceManager.cs" />
+    <Compile Include="Source\Game\ClientUIMatchStuff.cs" />
+    <Compile Include="Source\Lobby\ClientLobby.cs" />
+    <Compile Include="Source\Lobby\ClientLobbyBrowserManager.cs" />
+    <Compile Include="Source\Lobby\ClientLobbyManager.cs" />
+    <Compile Include="Source\Persistence\ClientPersistentDataManager.cs" />
+    <Compile Include="Source\Quickmatch\ClientQuickmatchManager.cs" />
+    <Compile Include="Source\Resources\ClientResource.cs" />
+    <Compile Include="Source\Resources\ClientResources.Designer.cs">
+      <DependentUpon>ClientResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Source\SlashCommand\ClientControlSlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\MatchSlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\MatchUISlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\QuickmatchSlashCommands.cs" />
+    <Compile Include="Source\TestClientShared.cs" />
+    <Compile Include="Source\Threads\ClientLogicalThread.cs" />
+    <Compile Include="Source\Threads\ClientNetworkThread.cs" />
+    <Compile Include="Source\UI\SharedClientUIRequests.cs" />
+    <Compile Include="Source\SlashCommand\BrowseLobbySlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\ChatSlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\LobbySlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\NetworkSlashCommands.cs" />
+    <Compile Include="Source\SlashCommand\SocialSlashCommands.cs" />
+    <Compile Include="Source\Social\ClientSocialManager.cs" />
+    <Compile Include="Source\UI\SharedClientUINotifications.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRShared\CRShared.csproj">
+      <Project>{B8A0F14F-B792-457D-8D9D-4CEAA03FBA54}</Project>
+      <Name>CRShared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Source\Resources\ClientResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ClientResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)Run\$(ProjectName).dll
+copy $(TargetDir)$(ProjectName).pdb $(SolutionDir)Run\$(ProjectName).pdb
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36C4B7E6-C89F-4C64-8A27-F7AFCD562ADC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRServer</RootNamespace>
+    <AssemblyName>CRServer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ENABLE_LOGGING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;ENABLE_LOGGING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Source\BackendAsyncOperations.cs" />
+    <Compile Include="Source\Chat\ChatPlayer.cs" />
+    <Compile Include="Source\Chat\ChatServer.cs" />
+    <Compile Include="Source\Chat\ServerChatChannel.cs" />
+    <Compile Include="Source\Chat\ServerChatMessages.cs" />
+    <Compile Include="Source\ConnectedPlayer.cs" />
+    <Compile Include="Source\ConnectedPlayerManager.cs" />
+    <Compile Include="Source\Game\ServerMatchInstanceManager.cs" />
+    <Compile Include="Source\Game\ServerMatchInstance.cs" />
+    <Compile Include="Source\Lobby\ServerLobbyBrowser.cs" />
+    <Compile Include="Source\Lobby\ServerLobbyBrowserManager.cs" />
+    <Compile Include="Source\Quickmatch\ServerQuickmatchManager.cs" />
+    <Compile Include="Source\SlashCommand\ServerControlSlashCommands.cs" />
+    <Compile Include="Source\TestServer.cs" />
+    <Compile Include="Source\Threads\ServerConsoleUIThreadcs.cs" />
+    <Compile Include="Source\Social\ServerSocialManager.cs" />
+    <Compile Include="Source\Lobby\ServerLobby.cs" />
+    <Compile Include="Source\Lobby\ServerLobbyManager.cs" />
+    <Compile Include="Source\Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Threads\PersistenceThread.cs" />
+    <Compile Include="Source\Persistence\DatabaseProxy.cs" />
+    <Compile Include="Source\Persistence\PersistenceFrame.cs" />
+    <Compile Include="Source\Persistence\PersistenceRequestResponse.cs" />
+    <Compile Include="Source\Resources\ServerResource.cs" />
+    <Compile Include="Source\Resources\ServerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Threads\ServerLogicalThread.cs" />
+    <Compile Include="Source\Threads\ServerNetworkThread.cs" />
+    <Compile Include="Source\ServerSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRShared\CRShared.csproj">
+      <Project>{B8A0F14F-B792-457D-8D9D-4CEAA03FBA54}</Project>
+      <Name>CRShared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Source\Resources\ServerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)Run\$(ProjectName).exe
+copy $(TargetDir)$(ProjectName).pdb $(SolutionDir)Run\$(ProjectName).pdb
+
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>
